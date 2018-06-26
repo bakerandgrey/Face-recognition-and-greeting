@@ -1,0 +1,9 @@
+Step 1: Download latest version of Raspbian from official raspberry pi website
+
+Step 2: Unzip the file
+
+step 3:connect a 16 GB sd card(minimum 8 GB) to the computer and format it.
+
+Step 4: Write the disc image to your microSD card using Win32 Disk Imager.
+
+Step 5: Put the microSD card in your Pi and boot up.

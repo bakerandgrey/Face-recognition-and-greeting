@@ -1,0 +1,27 @@
+Connecting a RPi to a laptop without connecting seperate mouse,keyboard or monitor to the RPi.(Windows)
+
+
+step 1: Create a text file with name as ssh with no contents and save it.
+step 2: Make that ssh file extention-less by editing it in its properties menu.
+step 3: Now connect the sd card that has the raspbian os burned into it.
+step 4: Copy the extension-less ssh file to Boot drive of sd card.
+step 5: put the sd card in the RPi and do not boot now.
+step 6: Softwares to be downloaded:
+             PuTTY
+             Advanced IP scanner
+             VNC viewer
+step 7: boot up the pi along with connecting a LAN cable between the Laptop and RPi.Laptop must be connected to internet accessible Wifi.
+step 8: Go to control panel --> Network and internet settings --> Change adapter options --> properties of Wifi connecton --> 
+        sharing --> turn on internet connection sharing and also select the ethernet connection.
+step 8: Run Command terminal and type ipconfig and find the IPv4 address of ethernet LAN adapter.(eg: 192.168.137.52)
+step 9: Run advanced IP scanner and give scanning range as 192.168.137.0 to 192.168.137.255 considering above example.
+step 10: Find IP address corresponding to your RPi device.(eg : 192.168.137.211)
+step 11: Open PuTTY and type that IP address found from advanced IP scanner and click Open.
+step 12: username: pi
+         password: raspberry
+step 13: type sudo apt-get install tightvncserver and click enter. Let the installation process.
+step 14: Give a password of your choice and simply type n for the next step.
+step 15: type tightvncserver and click enter.
+step 16: Note the window number (eg: 1)
+step 17: open VNC viewer installed earlier and type the IP address followed by a : and window number. Here 192.168.137.211:1 and click enter.
+step 18: Here is your raspbian OS running from your RPi seen in your laptop without connecting seperate mouse,keyboard or monitor to the RPi

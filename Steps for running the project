@@ -1,0 +1,7 @@
+Step 1: Connect  pi cam, IP cam or web cam to the RPi and PIR sensor with data pin (second pin) connected to pin 11. First and third pins are Vcc and ground respectively.
+
+Step 2: Run code 1 and enter preffered id number. Let it take photos of the person in front of the cam.
+
+Step 3: Run code 2 and let it train faces
+
+Step 4: Run code 3 and once pir sensor senses movement, it will greet the person in front of the camera.

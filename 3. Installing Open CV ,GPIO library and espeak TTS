@@ -1,0 +1,14 @@
+
+OpenCV installatiion: 
+
+Refer to this Link: https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+                    and follow each steps carefully.
+                    
+                    installation takes about 5 hours.
+                    
+                    
+Espeak installation: open terminal of raspbian and type : sudo apt-get install espeak
+
+GPIO library installation :  open terminal of raspbian and type : sudo apt-get install rpi.gpio 
+                    
+                    
